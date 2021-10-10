@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open("flight_xgb.pkl", "rb"))
+model = pickle.load("flight_xgb.pkl", "rb")
 
 
 
